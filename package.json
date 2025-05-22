@@ -1,0 +1,13 @@
+{
+  "name": "a11y-demo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "^13.0.0",
+    "cypress-axe": "^1.0.0",
+    "serve": "^14.0.1"
+  },
+  "scripts": {
+    "start": "serve public",
+    "cypress": "cypress open"
+  }
+}
